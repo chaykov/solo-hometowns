@@ -1,0 +1,120 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Arial";
+}
+
+img {
+  width: 100px;
+}
+
+.con {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(images/torshov.jpg);
+  background-size: cover;
+  background-position: top;
+  margin-bottom: 0;
+}
+
+.con-title {
+  background: #1d3557;
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 10px;
+}
+
+.con-description {
+  background: #457b9d;
+  color: #fff;
+  padding: 6px 28px;
+  width: 420px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.section-page {
+  background: #f1faee;
+  padding-top: 40px;
+  /* padding-bottom: 40px; */
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  padding: 40px 34px;
+  gap: 25px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  gap: 20px;
+}
+
+.card img {
+  border-radius: 100%;
+}
+
+.profile {
+  padding: 50px;
+}
+
+.profile-card {
+  margin: 0 auto;
+  background: #a8dadc;
+  width: 430px;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 20px 15px;
+  gap: 5px;
+  box-shadow: 0 10px black;
+  border-radius: 10px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.profile-info h3 {
+  color: #1d3557;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.profile-img {
+  border-radius: 10px;
+  width: 180px;
+  height: 250px;
+}
